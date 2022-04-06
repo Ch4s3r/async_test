@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1.17.0", features = ["time", "rt-multi-thread", "macros"] }
 futures = "0.3.21"
+par-stream = { version = "0.10.2", features = ["runtime-tokio"] }
